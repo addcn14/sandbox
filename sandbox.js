@@ -1,1 +1,1 @@
-setTimeout(function() { alert("HELLO!"); }, 1000)
+setTimeout(function() { alert("10 Seconds are over!"); }, 10000)
