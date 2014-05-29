@@ -1,1 +1,1 @@
-setTimeout(function() { alert("my message"); }, time); //in milliseconds
+setTimeout(function() { alert("HELLO!"); }, 1000
