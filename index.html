@@ -1,8 +1,14 @@
-<!DOCTYPE html>
-<html>
-<head>
-Welcome to Addcn's Sandbox!
-</head>
-<body>
-<script src='sandbox.js'> </script>
+<html> 
+  <head> 
+    <script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("http://sfbay.craigslist.org/search/sss?sort=date&maxAsk=150&query=fixie"); 
+    });
+    </script> 
+  </head> 
+
+  <body> 
+     <div id="includedContent"></div>
+  </body> 
 </html>
