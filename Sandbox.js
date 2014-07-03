@@ -1,4 +1,4 @@
-$(document).ready(
+$(document).ready(function(){
   var hovr = function(thing, clas){//clas is the class because class is defined in js already.
   $(thing).hover(function(){
     $(thing).addClass(clas)
@@ -7,7 +7,7 @@ $(document).ready(
   })
   }//end for var function
   hovr("div", "blue")
-  )
+  })
   
 /*BKUP
 $(document).ready(
