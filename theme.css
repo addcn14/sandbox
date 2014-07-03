@@ -1,8 +1,8 @@
 div {
   height:100px;
   width:100px;
-  color:red;
+  background-color:red;
 }
 .blue {
-  color: blue;
+  background-color: blue;
   }
