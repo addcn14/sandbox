@@ -7,6 +7,6 @@ $(document).ready(
     $(part).removeClass(clas)
   })
   }
-  hovr("div", "blue")
+  //hovr("div", "blue")
   )
   
