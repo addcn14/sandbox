@@ -1,12 +1,15 @@
 $(document).ready(function(){
+  var thing = prompt("What object are you changing?")
+  var clas = prompt("What color would you like to have it change to?")
   var hovr = function(thing, clas){//clas is the class because class is defined in js already.
+  var first = $(thing).css("background-color")
   $(thing).hover(function(){
-    $(thing).addClass(clas)
+    $(thing).css("background-color",clas)
   }, function(){
-    $(thing).removeClass(clas)
+    $(thing).css("background-color",first)
   })
   }//end for var function
-  hovr("div", "blue")
+  hovr(thing, clas)
   })
   
 /*BKUP
