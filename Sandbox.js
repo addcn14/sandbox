@@ -1,10 +1,10 @@
 //var hovr = 
 $(document).ready(
-  function(part, clas){//clas is the class because class is defined in js already.
-  $(part).hover(function(){
-    $(part).addClass(clas)
+  function(){//clas is the class because class is defined in js already.
+  $('div').hover(function(){
+    $('div').addClass('blue')
   }, function(){
-    $(part).removeClass(clas)
+    $('div').removeClass('blue')
   })
   }
   //hovr("div", "blue")
