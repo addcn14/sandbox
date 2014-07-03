@@ -1,6 +1,6 @@
 $(document).ready(function(){
-  var thing = prompt("What object are you changing?")
-  var clas = prompt("What color would you like to have it change to?")
+  var thing = prompt("What object are you changing? There is only the \"div\" availible right now.")
+  var clas = prompt("What color would you like to have it change to?\nRGB, Hex, etc. all work.")
   var hovr = function(thing, clas){//clas is the class because class is defined in js already.
   var first = $(thing).css("background-color")
   $(thing).hover(function(){
