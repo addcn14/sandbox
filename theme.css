@@ -1,11 +1,21 @@
-#backgroundimage {
-  height:50%;
-  background-image:url("http://phosphenes.tk/Facebook-13-iOS.jpg");
-  background-size: 100% auto;
-  background-attachment:scroll;
-  background-position:top;
-}
 html, body {
   height:100%;
   width:100%;
+}
+#color{
+  background-color:blue;
+}
+/* portrait */
+@media screen and (orientation:portrait) {
+    #color{
+	/* portrait-specific styles */
+	background-color:red;
+    }
+}
+/* landscape */
+@media screen and (orientation:landscape) {
+   .box{
+	/* landscape-specific styles */
+	background-color:green;
+    }
 }
