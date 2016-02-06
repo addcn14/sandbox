@@ -1,28 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
    "http://www.w3.org/TR/html4/loose.dtd">
-<HTML><HEAD><TITLE>Deadfish in HTML</TITLE>
-<SCRIPT type="text/javascript">
-var i=0;
-function deadfish()
-{
-  var c=document.getElementById("cmd").value;
-  document.getElementById("cmd").value="";
-  document.getElementById('op').innerHTML+=
-    "&gt;&gt;&nbsp;&#"+c.charCodeAt(0)+";<BR/>";
-  if(c=='i') i++;
-  else if(c=='d') i--;
-  else if(c=='s') i*=i;
-  else if(c=='o') document.getElementById('op').innerHTML+=i+"<BR/>";
-  else document.getElementById('op').innerHTML+="<BR/>";
-  if(i==256||i==-1) i=0;
-  return false;
-}
-</SCRIPT>
-</HEAD><BODY>
-<H1>Deadfish in HTML</H1>
-<DIV id="op"></DIV>
-<FORM onsubmit="return deadfish()">
-&gt;&gt;&nbsp;<INPUT type="text" maxlength="1" size="1" id="cmd" /><BR/>
-<INPUT type="submit" value="Submit" />
-</FORM>
-</BODY></HTML>
+<HTML>
+   <HEAD><TITLE>Redirect</TITLE>
+
+   </HEAD>
+   <BODY>
+      <H1>AMC12 2016 redirect</H1>
+   </BODY>
+</HTML>
